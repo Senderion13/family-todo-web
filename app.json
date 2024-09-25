@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.senderion13.familytodo"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,7 +29,8 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
@@ -40,6 +42,7 @@
       "eas": {
         "projectId": "a6938f59-fbe3-4104-8a11-10fe29c3bcfb"
       }
-    }
+    },
+    "owner": "senderion13"
   }
 }
